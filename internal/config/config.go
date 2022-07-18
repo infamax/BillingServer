@@ -1,5 +1,6 @@
 package config
 
-type config struct {
-	dbConfig
+type Config struct {
+	Port     int
+	dbConfig *DBConfig
 }
